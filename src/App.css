@@ -7,32 +7,108 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #181818;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #2B2B2B;
 }
 
-.App-link {
-  color: #61dafb;
+.Card {
+  position: absolute;
+  height: 550px;
+  width: 868px;
+  background: #ffffff;
+  
+}
+.Basics{
+  border:solid;
+  border-width: 0.8px;
+  border-color: white;
+  background-color:#282c34;
+  height: 550px;
+  width: 350px;
+  color:#ffffff;
+}
+.Basics > h1{
+  font-size:larger;
+}
+.Basics > p2, p3{
+  font-size:medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Basics > p2{
+  font-size:25px;
+  margin-top: -10px;
+}
+.Basics > p3{
+  font-size:medium;
+  margin-top: 10px;
+}
+.Profile{
+  margin-top: 20px;
+  object-fit: cover;
+  object-position: center -150px;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.About{
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  border:solid;
+  border-width: 0.8px;
+  border-color: #070a0f;
+  background-color:white;
+  height: 550px;
+  width: 518px;
+  color:#070a0f;
+}
+
+.About > h2, p3{
+  font-size:large;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.Skill-list{
+  font-size: medium;
+  padding: 10px;
+  text-align: left;
+  list-style: none;
+  margin-top: -10px;
+}
+.Skill-list > li {
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: left;
+  list-style: none;
+  margin-top: -10px;
+}
+.Contact-footer{
+  bottom: -20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  border: solid;
+  text-align: center;
+}
+.Contact-footer > h1, p2{
+  font-size: medium;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact-footer > p2{
+  margin-bottom: 5px;
 }
