@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:Verdana, Tahoma, sans-serif;
 }
 
 .App-logo {
@@ -109,6 +110,10 @@
   justify-content: center;
   align-items: center;
 }
-.Contact-footer > p2{
+.Contact-footer > h1{
   margin-bottom: 5px;
+}
+
+.Contact-footer > p2{
+  margin-bottom: 10px;
 }
